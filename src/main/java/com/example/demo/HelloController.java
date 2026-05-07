@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello from Spring Boot! Ready for Digital Ocean deployment.";
+        return "Hello from Spring Boot! Ready for Digital Ocean deployment. Test cicd.";
     }
 }
